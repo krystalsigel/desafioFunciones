@@ -1,0 +1,46 @@
+/* Part four */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body {
+    background-image: radial-gradient(circle, #e9fbf7, #d8fbf4, #c5fbf1, #b2faee, #9cfaeb, #83ede4, #67dfde, #48d2d9, #27b4ca, #1197b8, #117aa2, #1b5e89);
+}
+.containercolors {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+.colors {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'DynaPuff', cursive;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#one {
+    background-color: rgb(106, 0, 255);
+}
+#two {
+    background-color: rgb(127, 251, 255);
+}
+#three {
+    background-color: rgb(148, 3, 105);
+}
+#four {
+    background-color: rgb(244, 203, 203);
+}
+/* Part three */
+.container-paint{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DynaPuff', cursive;
+    margin-top: 50px;
+}
